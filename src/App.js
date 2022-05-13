@@ -92,31 +92,6 @@ function App() {
 
       {/* country leagues */}
       <CountryLeagues />
-      {/* <div className="mx-4 mt-20">
-        <h1 className="font-extrabold text-2xl">COUNTRY LEAGUES</h1> 
-        <div className="mt-6 grid grid-cols-2 gap-4">
-          <div className="w-[173.6px]">
-            <img src="/assets/league_images/champions.png" alt="" />
-            <p className="font-bold text-[10.81px] mt-[10.81px]">Champions League</p>
-          </div>
-          <div className="w-[173.6px]">
-            <img src="/assets/league_images/europa.png" alt="" />
-            <p className="font-bold text-[10.81px] mt-[10.81px]">Europe League</p>
-          </div>
-          <div className="w-[173.6px]">
-            <img src="/assets/league_images/copa.png" alt="" />
-            <p className="font-bold text-[10.81px] mt-[10.81px]">Copa America</p>
-          </div>
-          <div className="w-[173.6px]">
-            <img src="/assets/league_images/asian.png" alt="" />
-            <p className="font-bold text-[10.81px] mt-[10.81px]">Asian Cup</p>
-          </div>
-          <div className="w-[173.6px]">
-            <img src="/assets/league_images/africa.png" alt="" />
-            <p className="font-bold text-[10.81px] mt-[10.81px]">African Nations Cup</p>
-          </div> 
-        </div>
-      </div> */}
       {/* ./ country leagues */}
 
 
