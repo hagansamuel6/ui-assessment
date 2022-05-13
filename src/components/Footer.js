@@ -5,7 +5,7 @@ function Footer() {
     const main_menu_items = ['Home', 'T-Shirts', 'NBA', 'Tracksuits', 'Products Delivery  •  1 – 2 days', 'Contact', 'Reviews'];
     const secondary_menu_items = ['Search', 'Privacy Policy', 'Shipping Policy', 'Returns Policy', 'Terms of Service'];
     return (
-        <footer className="bg-[#F5F5F6] mt-[81.76px] pt-10">
+        <footer className="bg-[#F5F5F6] lg:mt-20 mt-[82.76px] pt-10">
             <div className='mx-20'>
                 <div className="mx-4 lg:mx-0 flex">
                     <div className="">

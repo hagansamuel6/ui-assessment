@@ -18,6 +18,15 @@ select {
   -webkit-appearance: none; 
 }
 
+.text-style-test {
+  font-size: 8.73px;
+  color: white;
+  line-height: 13.1px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* .background-image {
   background: url('/assets/league_images/europa.png');
 } */

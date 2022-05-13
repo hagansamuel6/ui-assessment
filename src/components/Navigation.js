@@ -9,7 +9,7 @@ function Navigation() {
   ]
   return (
     <nav id="navigation-menu" className="flex justify-between h-[72px] bg-[#F5F5F6]">
-      <div className='lg:w-40 lg:h-[88px] lg:bg-[#F9DC38]'>
+      <div className='lg:w-40 hidden lg:block lg:h-[88px] lg:bg-[#F9DC38]'>
 
       </div>
       <div className='hidden lg:block flex-1 bg-white'>
@@ -72,9 +72,11 @@ function Navigation() {
 
       {/* menu to be shown on small devices */}
       <div className="lg:hidden flex items-center">
-        <div className="ml-5">mm</div>
+        <div className="">
+          <img className='ml-5' src="/assets/icons/menu_icon.png" alt="" />
+        </div>
         <div>
-          <img src="/assets/icons/search.png" alt="" srcset="" className="ml-8" />
+          <img className='ml-[31.47px]' src="/assets/icons/search.png" alt="" srcset="" />
         </div>
       </div>
       <div className="lg:hidden flex items-center">
