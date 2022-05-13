@@ -23,12 +23,21 @@ function App() {
       <div className="bg-sky-500 h-[390px] lg:h-[400px] mt-0 relative lg:mt-10 lg:mx-10 bg-cover bg-no-repeat" style={{ backgroundImage: 'url("/assets/sale_items/large_image.png")' }}>
         <h1 className="text-white text-2xl font-bold pt-6 pl-6 lg:p-0 lg:pt-20 lg:pl-20 lg:text-[40px] leading-[48px]">Your favorite customized <br /> <span className="text-[#F9DC38]">Club Jerseys.</span></h1>
 
-        <div className="absolute flex justify-between bottom-0">
-          <div>
-            indicators
+        <div className="absolute flex justify-between bottom-0 left-0 right-0 mb-6">
+          <div className="mr-6 flex justify-start">
+            <img src="/asset/icons/indicator_main.png" alt="" className="w-8 h-[2px]" />
+            <img src="/asset/icons/indicator.png" alt="" className="w-8 h-[2px]" />
+            <img src="/asset/icons/indicator.png" alt="" className="w-8 h-[2px]" />
+            <img src="/asset/icons/indicator.png" alt="" className="w-8 h-[2px]" />
+            <img src="/asset/icons/indicator.png" alt="" className="w-8 h-[2px]" />
           </div>
           <Link to="/sample-product">
-            <button>Shop</button>
+            <div className="flex justify-start items-center mr-6">
+              <button className="border-2 border-white text-white h-10 center-el font-normal text-3 pr-[23px] pl-4">Shop</button>
+              <div class="bg-white h-10 w-10 center-el">
+                <img src="/assets/icons/shopping_bag.png" alt="" />
+              </div>
+            </div>
           </Link>
         </div>
       </div>
@@ -59,11 +68,15 @@ function App() {
               <div className="h-4 bg-black"></div>
             </div>
           </div>
-          <div className="flex just">
+          <div className="flex justify-between mr-4">
             {/* left indicator */}
-            <div className="border-2 border-gray-500"></div>
+            <div className="border-2 border-gray-200 h-10 w-10 center-el">
+              <img src="/assets/icons/left_indicator.png" alt="" />
+            </div>
             {/* right indicator */}
-            <div className="border-2 border-gray-500"></div>
+            <div className="border-2 border-gray-200 h-10 w-10 center-el ml-1">
+              <img src="/assets/icons/right_indicator.png" alt="" />
+            </div>
           </div>
         </div>
 
