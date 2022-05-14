@@ -9,9 +9,9 @@ function Footer() {
             <div className='mx-4 lg:mx-20 mt-10 lg:mt-20'>
                 <div className="mx-4 lg:mx-0 flex flex-wrap lg:flex-wrap justify-between items-start">
                     <div className="w-full lg:w-1/4">
-                        <h3 className="font-bold text-xl tracking-normal">Main Menu</h3>
+                        <h3 className="font-bold text-[16px] tracking-normal">Main Menu</h3>
                         <ul className="mt-2">
-                            {main_menu_items.map(item => (<li className="font-normal text-sm mt-4">{item}</li>))}
+                            {main_menu_items.map(item => (<li className="font-normal text-sm mt-4"><p>{item}</p></li>))}
                         </ul>
                     </div>
 
