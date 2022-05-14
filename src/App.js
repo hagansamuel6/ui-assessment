@@ -10,6 +10,7 @@ import Products from "./components/Products";
 import Herosection from "./components/Herosection";
 import PromoFeatures from "./components/PromoFeatures";
 import ProductListings from "./components/ProductListings";
+import Rewards from "./components/Rewards";
 
 function App() {
   return (
@@ -31,9 +32,7 @@ function App() {
       {/* ./promo features */}
 
       {/* rewards logo */}
-      <div className="mt-[18.93px] md:mt-[28px]">
-        <img src="/assets/icons/rewards.png" alt="" />
-      </div>
+      <Rewards/>
       {/* ./rewards logo */}
 
       {/* most popular shirts */}
